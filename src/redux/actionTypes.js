@@ -1,0 +1,1 @@
+export const GET_SHOPPING_LISTS = 'GET_SHOPPING_LISTS';
