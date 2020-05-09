@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "364815785265",
+    "firebase_url": "https://liste-de-course-e993d.firebaseio.com",
+    "project_id": "liste-de-course-e993d",
+    "storage_bucket": "liste-de-course-e993d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:364815785265:android:2b0ea87f4d64dfc31a6410",
+        "android_client_info": {
+          "package_name": "com.courselist"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "364815785265-u2viho39ko6l54cv18qk6a69c7m7mfh2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCKtNd5zsXytI05kRFv65gC_S9G9D-NamU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "364815785265-u2viho39ko6l54cv18qk6a69c7m7mfh2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -3,7 +3,7 @@ import {StyleSheet} from 'react-native';
 import {Provider} from 'react-redux';
 import {createStackNavigator} from '@react-navigation/stack';
 import {NavigationContainer} from '@react-navigation/native';
-import ShoppingList from './src/componenents/ShoppingList';
+import ShoppingLists from './src/components/ShoppingLists/index';
 import store from './src/redux/store';
 
 const Stack = createStackNavigator();
@@ -13,7 +13,7 @@ export default function App() {
     <Provider store={store}>
       <NavigationContainer>
         <Stack.Navigator>
-          <Stack.Screen name="ShoppingList" component={ShoppingList} />
+          <Stack.Screen name="ShoppingLists" component={ShoppingLists} />
         </Stack.Navigator>
       </NavigationContainer>
     </Provider>

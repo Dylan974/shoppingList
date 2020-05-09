@@ -2,15 +2,15 @@ import React, {useEffect} from 'react';
 import {Container, Header, Content, List, ListItem, Text} from 'native-base';
 import {useSelector, useDispatch} from 'react-redux';
 import {getShoppingLists} from '../../redux/selectors';
-import {fetchShoppingLists} from '../../api/shoppingList';
+import {fetchShoppingLists} from '../../api/shoppingLists';
 
 const ShoppingLists = ({navigation}) => {
   const dispatch = useDispatch();
   const shoppingLists = useSelector(getShoppingLists);
-  console.log(shoppingLists);
   useEffect(() => {
     fetchShoppingLists(dispatch);
   }, [dispatch]);
+  console.log('shoppingList', shoppingLists);
 
   return (
     <Container>
