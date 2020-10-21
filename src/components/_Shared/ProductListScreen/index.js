@@ -12,7 +12,7 @@ const ProductListScreen = ({productList}) => {
     <Container>
       <Header />
       <Content>
-        <List dataArray={productList} renderRow={_displayProduct} />
+        <List dataArray={productList} renderItem={_displayProduct} />
       </Content>
     </Container>
   );

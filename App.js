@@ -3,8 +3,8 @@ import {StyleSheet} from 'react-native';
 import {Provider} from 'react-redux';
 import {createStackNavigator} from '@react-navigation/stack';
 import {NavigationContainer} from '@react-navigation/native';
+import CreateShoppingListScreen from './src/components/ShoppingLists/CreateShoppingListScreen/index';
 import store from './src/redux/store';
-import CreateShoppingListScreen from './src/components/ShoppingLists/CreateShoppingListScreen';
 
 const Stack = createStackNavigator();
 
